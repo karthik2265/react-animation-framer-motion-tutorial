@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 function Box1() {
   const [isAnimating, setIsAnimating] = useState(false)
+  console.log(isAnimating,"isanimating")
   return (
     <div className='box-container'>
       <motion.div
